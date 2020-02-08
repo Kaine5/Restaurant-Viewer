@@ -45,10 +45,8 @@ describe('restaurants got sorted alphabetically - Descending', () => {
   
 })
 
-describe('Card component tests', ()=>{
-  test('Card component with the first restaurant data got rendered correctly', () => {
+test('Card component with the first restaurant data got rendered correctly', () => {
     expect(shallow(<Card restaurant={Restaurant.restaurants[0]}/>)).toMatchSnapshot();
-  })
 })
 
 describe('RestaurantsList tests', ()=>{
