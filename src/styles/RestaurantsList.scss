@@ -1,0 +1,17 @@
+.restaurants-list{
+    // This is the minimum width of a card.
+    --grid-min-size: 25rem;
+
+    display: grid;
+    // The size of the cards will be flexible but bigger than or equal to 25rem.
+    // Also making the cards-displaying grid more responsive.
+    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min-size), 1fr)); 
+    gap: 1rem;
+    margin: 0 1rem;
+
+    // The size of the cards will be as wide as the content, but smaller than 25rem
+    // For screen with width less than 420px so that the margins are displayed correctly.
+    @media screen and (max-width: 420px){
+        grid-template-columns: repeat(auto-fill, minmax(min-content, 25rem));
+    }
+}

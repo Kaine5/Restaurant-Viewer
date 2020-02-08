@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component tests Card component with the first restaurant data got rendered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`RestaurantsList tests Ascending sorted array of restaurants got rendered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`RestaurantsList tests Descending sorted array of restaurants got rendered correctly 1`] = `ShallowWrapper {}`;
+
+exports[`RestaurantsList tests Unsorted array of restaurants got rendered correctly 1`] = `ShallowWrapper {}`;
