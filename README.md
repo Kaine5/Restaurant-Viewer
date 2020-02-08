@@ -1,4 +1,4 @@
-# Restaurants Viewer - Wolt 2020 Frontend Internship Assignment
+# Restaurants Viewer - Wolt's 2020 Frontend Internship Assignment
 
 This application is made as a solution for the Wolt 2020 Frontend Internship Assignment.<br /> 
 It shows a list of available restaurants with some detailed information, while allowing users to sort them alphabetically.
